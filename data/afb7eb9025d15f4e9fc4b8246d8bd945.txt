@@ -1,0 +1,14 @@
+[SUBJECT]
+Whatis true about halt, reboot and poweroff systemctl subcommands?
+[SUBJECT]
+[OPTIONS]
+They don't exist
+All three of them send a wall message to logged in users
+They also have their respective target unit files.
+[OPTIONS]
+[HINT]
+They exist
+[HINT]
+[ANSWER]
+23
+[ANSWER]

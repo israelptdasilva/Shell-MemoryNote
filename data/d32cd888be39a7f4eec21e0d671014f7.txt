@@ -1,0 +1,15 @@
+[SUBJECT]
+Which file can be used to set a prelogin message to the user?
+[SUBJECT]
+[OPTIONS]
+/etc/messages
+/etc/issue
+/etc/login
+/etc/motd
+[OPTIONS]
+[HINT]
+The file contains a message or system identification and is printed before the user login prompt. The filename is could have a more meaninful connection to its purpose.
+[HINT]
+[ANSWER]
+2
+[ANSWER]

@@ -8,7 +8,7 @@ if [ -z "$(ls -A $dir)" ] ; then
 fi
 
 IFS=$'\n'	
-filequery=$(ls $dir | sort -R | head -n1)
+filequery=$(ls -tr $dir | head -n1)
 filename="${dir}/${filequery}"
 
 clear
@@ -21,6 +21,6 @@ read -p "Read next? yes or no (yes)> "
 
 case $REPLY in
 	"no" ) exit 0 ;;
-	"yes") ./scripts/fl ;;
-	*    ) ./scripts/fl ;;
+	"yes") touch "$filename" ; ./scripts/fl ;;
+	*    ) touch "$filename" ; ./scripts/fl ;;
 esac
