@@ -22,5 +22,5 @@ read -p "Read next? yes or no (yes)> "
 case $REPLY in
 	"no" ) exit 0 ;;
 	"yes") ./scripts/fl ;;
-	*		 ) ./scripts/fl ;;
+	*    ) ./scripts/fl ;;
 esac
