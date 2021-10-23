@@ -1,0 +1,19 @@
+#!/bin/bash
+
+file=$1
+
+s="/^\[SUBJECT\]/,/^\[SUBJECT\]$/ { /^\[SUBJECT\]$/d; /^\[SUBJECT\]$/d; p; }"
+o="/^\[OPTIONS\]/,/^\[OPTIONS\]$/ { /^\[OPTIONS\]$/d; /^\[OPTIONS\]$/d; p; }"
+
+subject=`sed -n "$s" $file`
+options=`sed -n "$o" $file`
+
+printf "\n%s\n\n" "$subject"
+
+counter=1
+for o in $options; do
+	echo "$counter - $o"
+	(( counter++ ))
+done
+printf "\n"
+

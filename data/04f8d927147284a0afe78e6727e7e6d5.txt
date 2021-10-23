@@ -1,0 +1,15 @@
+[SUBJECT]
+What's your age?
+[SUBJECT]
+[OPTIONS]
+10
+2
+35
+36
+[OPTIONS]
+[HINT]
+thirty something
+[HINT]
+[ANSWER]
+4
+[ANSWER]

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+case $1 in
+	""		) source scripts/nn ;;
+	"new"	) source scripts/nn ;;
+	"read") source scripts/fl ;;
+	*			)	source scripts/help ; exit 1 ;;
+esac
+

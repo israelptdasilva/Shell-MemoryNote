@@ -1,0 +1,26 @@
+#!/bin/bash
+
+dir="data"
+
+if [ -z "$(ls -A $dir)" ] ; then
+	printf "No notes found in data directory.\n"
+	exit 1
+fi
+
+IFS=$'\n'	
+filequery=$(ls $dir | sort -R | head -n1)
+filename="${dir}/${filequery}"
+
+clear
+printf "\n"
+printf "$filename\n\n"
+./scripts/subject $filename
+./scripts/answer $filename
+
+read -p "Read next? yes or no (yes)> "
+
+case $REPLY in
+	"no" ) exit 0 ;;
+	"yes") ./scripts/fl ;;
+	*		 ) ./scripts/fl ;;
+esac

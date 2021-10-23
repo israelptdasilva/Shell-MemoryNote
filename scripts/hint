@@ -1,0 +1,8 @@
+#!/bin/bash
+
+file=$1
+
+h="/^\[HINT\]/,/^\[HINT\]$/ { /^\[HINT\]$/d; /^\[HINT\]$/d; p; }"
+hint=`sed -n "$h" $file`
+
+printf "\n%s\n\n" "$hint"
