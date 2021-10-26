@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Date: 07/10/2021
+# Author: Israel Pereira Tavares da Silva 
+
 clear 
 
 # Enter a short question whose answer is an
@@ -38,7 +41,8 @@ printf "Add a answer: \n"
 read answer
 
 # Create uniquely named file.
-filename=$(md5sum <<< $RANDOM | cut -d " " -f1).txt
+#filename=$(md5sum <<< $RANDOM | cut -d " " -f1).txt
+filename=$(ls data | wc -l).txt
 touch $filename
 
 # These tags group user input in sections so that
