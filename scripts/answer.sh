@@ -15,7 +15,7 @@ answer=`sed -n "$a" $file`
 read -p "> " reply
 case "$reply" in
 	"$answer") printf "\n  Correct \u2714\n\n" ; exit 1 ;;
-	"hint"   ) ./scripts/hint $file ;;
+	"hint"   ) ./scripts/hint.sh $file ;;
 	"answer" ) printf "\n%s\n\n" $answer ;;
 	*        ) printf "\n  Wrong \u274c\n\n" ; source $0 ;;
 esac 

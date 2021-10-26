@@ -1,0 +1,12 @@
+[SUBJECT]
+With the sar command, how can you print the queue length and load averages?
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+You can pass an option to sar like you do to check the RAM report (-r). Which option do you think sar needs to display the queue?
+[HINT]
+[ANSWER]
+sar -q
+[ANSWER]

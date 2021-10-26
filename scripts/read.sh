@@ -19,8 +19,8 @@ filename="${dir}/${filequery}"
 
 clear
 printf "$filename\n\n" # Print filename for reference.
-./scripts/subject $filename # Print question and options.
-./scripts/answer $filename # Print answer prompt. 
+./scripts/subject.sh $filename # Print question and options.
+./scripts/answer.sh $filename # Print answer prompt. 
 
 # At this point the question was answered correctly so
 # send file to the back of the line.
@@ -30,6 +30,6 @@ touch "$filename"
 read -p "Read next? yes or no (yes)> "
 case $REPLY in
 	"no" ) exit 0 ;;
-	"yes") ./scripts/fl ;;
-	*    ) ./scripts/fl ;;
+	"yes") ./scripts/read.sh ;;
+	*    ) ./scripts/read.sh ;;
 esac

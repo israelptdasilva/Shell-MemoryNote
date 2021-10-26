@@ -1,0 +1,15 @@
+[SUBJECT]
+What is true about the fields %user and %system when checking system performance with sar, iostat or vmstat?
+[SUBJECT]
+[OPTIONS]
+%user means CPU utilization while executing at the user level
+%user means how much corresponds to the current user CPU utilization
+%system means CPU utilization that includes execution at user and system level
+%system means CPU utilization while executing at the kernel level
+[OPTIONS]
+[HINT]
+%user and %system are separate things
+[HINT]
+[ANSWER]
+14
+[ANSWER]

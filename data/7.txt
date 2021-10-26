@@ -1,0 +1,15 @@
+[SUBJECT]
+What is true about sar?
+[SUBJECT]
+[OPTIONS]
+It is a combination of sa1, sa2 and sadc
+It is part of the package sysstat
+Needs to be enabled in /etc/default/sysstat
+It outputs partition statistics
+[OPTIONS]
+[HINT]
+sar is very useful to show information about CPU, devices, Memory and Load Averages.
+[HINT]
+[ANSWER]
+123
+[ANSWER]

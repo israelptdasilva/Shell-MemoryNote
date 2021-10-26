@@ -1,0 +1,17 @@
+[SUBJECT]
+What is true about vmstat?
+[SUBJECT]
+[OPTIONS]
+-a Shows active and inactive memory
+-p /dev/sdb* shows partition information
+-s Shows a long summary
+-d Shows devices information
+-D Shows devices summary
+- vmstat is all about virtual memory
+[OPTIONS]
+[HINT]
+All true
+[HINT]
+[ANSWER]
+123456
+[ANSWER]

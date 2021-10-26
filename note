@@ -7,10 +7,10 @@
 # read existing notes from the data dir.
 
 case $1 in
-	""       ) source scripts/nn ;;
-	"new"    ) source scripts/nn ;;
-	"read"   ) source scripts/fl ;;
-	"shuffle") source scripts/shuffle;;
-	*        ) source scripts/help ; exit 1 ;;
+	""       ) source scripts/new.sh ;;
+	"new"    ) source scripts/new.sh ;;
+	"read"   ) source scripts/read.sh ;;
+	"shuffle") source scripts/shuffle.sh ;;
+	*        ) source scripts/help.sh ; exit 1 ;;
 esac
 

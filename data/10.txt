@@ -1,0 +1,16 @@
+[SUBJECT]
+How to create a swap entry in /etc/fstab?
+[SUBJECT]
+[OPTIONS]
+/swapfile /swapfile swap sw 0 0
+/swapfile none swap sw 0 1
+/swapfile none swap sw 0 0
+/swapfile swap swap sw 0 0
+/swapfile swap auto sw 0 0
+[OPTIONS]
+[HINT]
+The swap mount point can be none, swap or auto.
+[HINT]
+[ANSWER]
+345
+[ANSWER]
