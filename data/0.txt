@@ -1,15 +1,15 @@
 [SUBJECT]
-What does /etc/motd (message of the day) do?
+
 [SUBJECT]
 [OPTIONS]
-Displays a just before the user login
-Displays a message after a successful login and after the shell is starts
-Displays a message to all logged in users
-Displays a message after a successful login but before the shell starts
+
 [OPTIONS]
 [HINT]
-It required much less space than sending an email to users. This is a post login message.
+
 [HINT]
 [ANSWER]
-4
+
 [ANSWER]
+[CATEGORY]
+Security tasks
+[CATEGORY]
