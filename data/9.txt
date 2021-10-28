@@ -1,0 +1,27 @@
+[SUBJECT]
+Based on the following information what does channel and category do?
+
+channel lpi2 {
+    file "data/curso.log";
+    severity debug;
+};
+category queries {
+    lpi2;
+}
+
+[SUBJECT]
+[OPTIONS]
+channel defines where named will store dns information
+category defines how queries will be made
+category defines which type of information the channel lpi2 will store
+channel and category are not related
+[OPTIONS]
+[HINT]
+channel defines where category defines what.
+[HINT]
+[ANSWER]
+13
+[ANSWER]
+[CATEGORY]
+207.1:Basic DNS server configuration:3
+[CATEGORY]

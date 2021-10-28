@@ -1,0 +1,25 @@
+[SUBJECT]
+Based on the information below what do redhat.domain.com. and admin.domain.com. mean?
+@	IN	SOA	redhat.domain.com.	admin.domain.com. (\. (
+        02	   ; serial
+        28800	 ; refresh (8h)
+        7200	 ; retry (2h)
+        604800 ; expire (7d)
+        3600	 ; negative caching (1h)
+)
+[SUBJECT]
+[OPTIONS]
+Start of Authority (SOA record) and administrator email address
+Start of Authority (SOA record) and subdomain
+Software Oriented Architecture (SOA) and subdomain
+Service of Authority (SOA record) and administrator email address
+[OPTIONS]
+[HINT]
+A Start of Authority record (abbreviated as SOA record) is a type of resource record in the Domain Name System (DNS) containing administrative information about the zone, especially regarding zone transfers.
+[HINT]
+[ANSWER]
+1
+[ANSWER]
+[CATEGORY]
+207.1:Basic DNS server configuration:3
+[CATEGORY]

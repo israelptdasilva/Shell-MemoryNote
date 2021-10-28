@@ -1,0 +1,24 @@
+[SUBJECT]
+Base on the information below what best describes hint and file?
+
+zone "." IN {
+    type hint;
+    file "named.ca";
+};
+
+[SUBJECT]
+[OPTIONS]
+hint means the . (dot) zone if a query server
+hint means the . (dot) zone if a caching server
+file means the named.ca file has the root server configuration
+file means the named.ca file will cache the query from . (dot) zone
+[OPTIONS]
+[HINT]
+type means the type of DNS server is being configured in named.conf .
+[HINT]
+[ANSWER]
+23
+[ANSWER]
+[CATEGORY]
+207.1:Basic DNS server configuration:3
+[CATEGORY]

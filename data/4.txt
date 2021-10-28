@@ -1,0 +1,20 @@
+[SUBJECT]
+Choose three valid alternatives to teh BIND server:
+[SUBJECT]
+[OPTIONS]
+dnsdjb
+djbdns
+PowerDNS
+NewDNS
+dnsmasq
+dnsqueue
+[OPTIONS]
+[HINT]
+Make an internet search and check the description of each BIND alternative to get a short descripion of what each one is capable of.
+[HINT]
+[ANSWER]
+124
+[ANSWER]
+[CATEGORY]
+207.1:Basic DNS server configuration:3
+[CATEGORY]

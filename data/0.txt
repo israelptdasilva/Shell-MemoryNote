@@ -1,15 +1,21 @@
 [SUBJECT]
+How can the components of the following fully qualified domain (FQDN) be described?
+
+www.redhat.com
 
 [SUBJECT]
 [OPTIONS]
-
+host/subdomain, domain, TDL (top level domain)
+host, FLD (first level domain), TDL (top level domain)
+SLD (second level domain), domain, TDL (top level domain)
+subdomain, domain, TDL (top level domain)
 [OPTIONS]
 [HINT]
-
+All options are true. Check the inverted tree diagram explaining how DNSZ work to get better picture of how domain names are resolved.
 [HINT]
 [ANSWER]
-
+1234
 [ANSWER]
 [CATEGORY]
-Security tasks
+207.1:Basic DNS server configuration:3
 [CATEGORY]

@@ -10,7 +10,7 @@ clear
 # with a tricky question, instead ask questions that 
 # act as a memory note.
 printf "Question: \n"
-read subject
+read -r subject
 
 # Here you can enter multiple options with one or more 
 # correct answers (multiple choice questions) or leave it

@@ -1,0 +1,15 @@
+[SUBJECT]
+When editing bind configuration files (e.g. named.conf) which utility can help in checking for any synthax errors?
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+named-check----
+[HINT]
+[ANSWER]
+named-checkconf
+[ANSWER]
+[CATEGORY]
+207.1:Basic DNS server configuration:3
+[CATEGORY]

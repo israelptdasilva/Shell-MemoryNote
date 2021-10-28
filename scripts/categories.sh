@@ -18,7 +18,8 @@ function set_category {
 	fi
 	local code=$1
 	(( code++ ))
-	local categories=`cut -d: -f2 scripts/categories`
+	#local categories=`cut -d: -f1,2,3 scripts/categories`
+	local categories=`cat scripts/categories`
   category=$(echo "$categories" | sed "${code}q;d" 2> /dev/null)
 }
 
