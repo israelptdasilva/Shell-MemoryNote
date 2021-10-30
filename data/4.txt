@@ -13,7 +13,7 @@ dnsqueue
 Make an internet search and check the description of each BIND alternative to get a short descripion of what each one is capable of.
 [HINT]
 [ANSWER]
-124
+235
 [ANSWER]
 [CATEGORY]
 207.1:Basic DNS server configuration:3

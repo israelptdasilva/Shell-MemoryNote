@@ -1,0 +1,18 @@
+[SUBJECT]
+When doing dig @ns.server.com. chaos bind.version txt it 's possible to check the version of the DNS running in ns.server.com. For security reasons how can you prevent that information show showing in the dig output?
+[SUBJECT]
+[OPTIONS]
+Using a firewall to block this request
+Removing the version file
+Change the file version
+Add version "hidden" in named.conf
+[OPTIONS]
+[HINT]
+The version option in named.conf can be any string "hidden", "null", etc.
+[HINT]
+[ANSWER]
+4
+[ANSWER]
+[CATEGORY]
+207.1:Basic DNS server configuration:3
+[CATEGORY]

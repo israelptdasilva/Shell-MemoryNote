@@ -1,0 +1,18 @@
+[SUBJECT]
+What is the difference between -j DNAT and -j REDIRECT?
+[SUBJECT]
+[OPTIONS]
+DNAT is used for internal and external routing
+REDIRECT is used for internal routing only
+Both are equivalent
+REDIRECT is used for extenal routing
+[OPTIONS]
+[HINT]
+Redirect is used only when PREROUTING needs to be done inside the network.
+[HINT]
+[ANSWER]
+12
+[ANSWER]
+[CATEGORY]
+212.1:Configuring a router:3
+[CATEGORY]

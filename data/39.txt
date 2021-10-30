@@ -1,0 +1,18 @@
+[SUBJECT]
+Which command can be used by the client to upload a public-key to the server's authorized keys?
+[SUBJECT]
+[OPTIONS]
+ssh-copy-id
+ssh-authorize
+ssh-key-copy
+ssh-key-gen
+[OPTIONS]
+[HINT]
+copy
+[HINT]
+[ANSWER]
+1
+[ANSWER]
+[CATEGORY]
+212.3:Secure shell (SSH):4
+[CATEGORY]

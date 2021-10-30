@@ -1,0 +1,15 @@
+[SUBJECT]
+Where do files like authorized_keys and known_hosts are located?
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+/etc/.
+[HINT]
+[ANSWER]
+/etc/.ssh
+[ANSWER]
+[CATEGORY]
+212.3:Secure shell (SSH):4
+[CATEGORY]

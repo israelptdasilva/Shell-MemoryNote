@@ -1,0 +1,18 @@
+[SUBJECT]
+Which of the following are valid ssh configuration options?
+[SUBJECT]
+[OPTIONS]
+AllowUsers a b c d
+DenyUsers a b c d
+AllowGroups a b c d
+Protocol 2
+[OPTIONS]
+[HINT]
+All true
+[HINT]
+[ANSWER]
+1234
+[ANSWER]
+[CATEGORY]
+212.3:Secure shell (SSH):4
+[CATEGORY]

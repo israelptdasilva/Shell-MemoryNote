@@ -1,0 +1,21 @@
+[SUBJECT]
+Base on the information below what does MASQUERADE mean?
+
+iptables -t nat -A POPOSTROUTING -s 172.16.32.0/24 -o enp0s8 -j SNAT --to-source 192.168.1.210
+
+[SUBJECT]
+[OPTIONS]
+It means the source IP will be hidden
+It means packets will be encrypted
+It means the origin address will be masked
+It means the source (-s) will be changed to be the addr of enp0s8
+[OPTIONS]
+[HINT]
+MASQUERADE is useful when the ip address of origin (enp0s8) isn't known.
+[HINT]
+[ANSWER]
+4
+[ANSWER]
+[CATEGORY]
+212.1:Configuring a router:3
+[CATEGORY]

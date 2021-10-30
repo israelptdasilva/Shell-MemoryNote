@@ -1,0 +1,20 @@
+[SUBJECT]
+Base on the information below what do -A -p and -j mean?
+ iptables -t filter -A INPUT -p icmp -j DROP
+
+[SUBJECT]
+[OPTIONS]
+-A chain rule, -p protocol, -j action
+-A allow, -p port, -j compression mode
+-A DNS record, -p protocol, -j action
+-A chaing rule, -p port, -j action
+[OPTIONS]
+[HINT]
+The command drops any icmp based input (e.g. ping)
+[HINT]
+[ANSWER]
+1
+[ANSWER]
+[CATEGORY]
+212.1:Configuring a router:3
+[CATEGORY]

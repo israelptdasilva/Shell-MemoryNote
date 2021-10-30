@@ -1,11 +1,11 @@
 [SUBJECT]
 Based on the information below what do redhat.domain.com. and admin.domain.com. mean?
-@	IN	SOA	redhat.domain.com.	admin.domain.com. (\. (
-        02	   ; serial
-        28800	 ; refresh (8h)
-        7200	 ; retry (2h)
+@	IN	SOA	redhat.domain.com.	admin.domain.com. (
+        02     ; serial
+        28800  ; refresh (8h)
+        7200   ; retry (2h)
         604800 ; expire (7d)
-        3600	 ; negative caching (1h)
+        3600   ; negative caching (1h)
 )
 [SUBJECT]
 [OPTIONS]

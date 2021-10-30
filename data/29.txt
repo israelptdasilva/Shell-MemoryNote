@@ -1,0 +1,21 @@
+[SUBJECT]
+Based on the information below what does SNAT mean?
+
+iptables -t nat -A POPOSTROUTING s- 172.16.32.0/24 -o enp0s8 -j SNAT --to-source 192.168.1.210
+
+[SUBJECT]
+[OPTIONS]
+Change connection from ip 172.16.32.0 to 192.168.1.210
+Get the source address of 172.16.32.0
+Change the source IP (-s) to 192.168.1.210
+An error will occur.
+[OPTIONS]
+[HINT]
+This scenario is related to a situation where the destination only accepts INPUT from a certain origin., that's the case when a machine is routing rpackets from an origin that is not allowed on the machine is trying to comunicate to.
+[HINT]
+[ANSWER]
+3
+[ANSWER]
+[CATEGORY]
+212.1:Configuring a router:3
+[CATEGORY]

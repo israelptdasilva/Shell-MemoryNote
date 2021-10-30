@@ -1,0 +1,15 @@
+[SUBJECT]
+Which chain rules are defined in the filter table (IPTables)
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+input output foward
+[HINT]
+[ANSWER]
+input output forward
+[ANSWER]
+[CATEGORY]
+212.1:Configuring a router:3
+[CATEGORY]

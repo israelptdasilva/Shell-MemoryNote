@@ -1,0 +1,15 @@
+[SUBJECT]
+What is the nmap command that is outputs the OS fingerprint?
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+-O
+[HINT]
+[ANSWER]
+nmap -O
+[ANSWER]
+[CATEGORY]
+212.4:Security tasks:3
+[CATEGORY]

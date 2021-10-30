@@ -1,0 +1,18 @@
+[SUBJECT]
+What does the ipv6 local address of an interface start with?
+[SUBJECT]
+[OPTIONS]
+80f3
+32fd
+fe80
+ff80
+[OPTIONS]
+[HINT]
+fe80
+[HINT]
+[ANSWER]
+3
+[ANSWER]
+[CATEGORY]
+212.1:Configuring a router:3
+[CATEGORY]

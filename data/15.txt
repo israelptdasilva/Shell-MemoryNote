@@ -1,0 +1,18 @@
+[SUBJECT]
+How can you limit access to DNS zones?
+[SUBJECT]
+[OPTIONS]
+using zone_config property
+using allow-query property
+using view and match-clients
+using match-view
+[OPTIONS]
+[HINT]
+view name {n    match-clients { rede-interna; }n;    zone....n}
+[HINT]
+[ANSWER]
+3
+[ANSWER]
+[CATEGORY]
+207.1:Basic DNS server configuration:3
+[CATEGORY]

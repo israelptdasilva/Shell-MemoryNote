@@ -1,0 +1,17 @@
+[SUBJECT]
+What is the difference between active and passive FTP connections?
+[SUBJECT]
+[OPTIONS]
+active connections are started by the client on port 21
+active connections the server opens a socket on client and sends data from port 20
+passive connections are started by the client on port 21
+passive connections the client opens a socket specified by the server for data transfer
+[HINT]
+All true
+[HINT]
+[ANSWER]
+1234
+[ANSWER]
+[CATEGORY]
+212.1:Configuring a router:3
+[CATEGORY]

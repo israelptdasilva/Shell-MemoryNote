@@ -1,0 +1,18 @@
+[SUBJECT]
+Which options represents valid Netfilter/IPTable chains?
+[SUBJECT]
+[OPTIONS]
+IN, OUT, Forward, PRE, POST
+Incoming, outgoing, Forward, Routing
+Inbound, outboung, forwarding, preroute, postroute
+input, output, forward, prerouting, postrouting
+[OPTIONS]
+[HINT]
+You have to memorize this one.
+[HINT]
+[ANSWER]
+4
+[ANSWER]
+[CATEGORY]
+212.1:Configuring a router:3
+[CATEGORY]

@@ -1,0 +1,15 @@
+[SUBJECT]
+Which command is used to sign a zone with a private key?
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+dnssec-s-------
+[HINT]
+[ANSWER]
+dnssec-signzone
+[ANSWER]
+[CATEGORY]
+207.1:Basic DNS server configuration:3
+[CATEGORY]

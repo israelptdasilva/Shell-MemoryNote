@@ -1,0 +1,15 @@
+[SUBJECT]
+Where does fail2ban saves its log files?
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+/var/log/?
+[HINT]
+[ANSWER]
+/etc/log/fail2ban.log
+[ANSWER]
+[CATEGORY]
+212.4:Security tasks:3
+[CATEGORY]

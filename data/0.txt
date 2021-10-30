@@ -1,14 +1,14 @@
 [SUBJECT]
 How can the components of the following fully qualified domain (FQDN) be described?
 
-www.redhat.com
+www.redhat.com.
 
 [SUBJECT]
 [OPTIONS]
-host/subdomain, domain, TDL (top level domain)
-host, FLD (first level domain), TDL (top level domain)
-SLD (second level domain), domain, TDL (top level domain)
-subdomain, domain, TDL (top level domain)
+host/subdomain, domain, TDL (top level domain), root domain
+host, FLD (first level domain), TDL (top level domain), root domain
+SLD (second level domain), domain, TDL (top level domain), root domain
+subdomain, domain, TDL (top level domain), root domain
 [OPTIONS]
 [HINT]
 All options are true. Check the inverted tree diagram explaining how DNSZ work to get better picture of how domain names are resolved.

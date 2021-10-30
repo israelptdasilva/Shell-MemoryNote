@@ -1,0 +1,15 @@
+[SUBJECT]
+Which files does fail2ban use to declare rules of what and when it will be blocked?
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+/etc/j
+[HINT]
+[ANSWER]
+/etc/jail.conf
+[ANSWER]
+[CATEGORY]
+212.4:Security tasks:3
+[CATEGORY]
