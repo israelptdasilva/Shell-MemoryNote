@@ -1,0 +1,18 @@
+[SUBJECT]
+Which concept is used for the ability to customize a system's security policyy y on a tool by tools basis?
+[SUBJECT]
+[OPTIONS]
+PPO
+SOA
+PAM Authentication
+SSP Login
+[OPTIONS]
+[HINT]
+PAM
+[HINT]
+[ANSWER]
+3
+[ANSWER]
+[CATEGORY]
+210.2:PAM authentication:3
+[CATEGORY]

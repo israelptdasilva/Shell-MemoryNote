@@ -1,0 +1,22 @@
+[SUBJECT]
+About Email:
+[SUBJECT]
+[OPTIONS]
+SMTP (Simple Mail Transfer Protocol)
+MUA (Mail User Agent), create and send email
+MSA (Mail Submission Agent) sits between MUA and MTA
+MTA (Mail Transfer Agent) accepts from MUA and sends to another MTA.
+MDA (Mail Delivery Agent) receives from MTA and delivers to local users
+POP (Post Office Protocol) used by MUA to get email
+IMAP (Internet Message Access Protocol) used by MUA to get email
+MX Record used by MTA to determine the authoritative mail server
+[OPTIONS]
+[HINT]
+All true
+[HINT]
+[ANSWER]
+12345678
+[ANSWER]
+[CATEGORY]
+211.1:Using e-mail servers:4
+[CATEGORY]

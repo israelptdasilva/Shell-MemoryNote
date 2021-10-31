@@ -1,0 +1,18 @@
+[SUBJECT]
+If server ONE forwards a DHCP IP request to server TWO outside of the network requesting a DHCP IP, what is server ONE called?
+[SUBJECT]
+[OPTIONS]
+A DHCP-IP-Forwarder
+A DHCP Relay Agent
+A DHCP Communication Agent
+A DHCP IP Requester
+[OPTIONS]
+[HINT]
+A special agent that can listen on subnets that do not have a dhcp server for dhcp requests (or BOOTP requests) and then forward those on to a specific DHCP server to another network is a dhcp relay agent.
+[HINT]
+[ANSWER]
+2
+[ANSWER]
+[CATEGORY]
+201.1:DHCP configuration:2
+[CATEGORY]

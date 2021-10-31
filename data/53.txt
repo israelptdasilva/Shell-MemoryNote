@@ -1,0 +1,18 @@
+[SUBJECT]
+Which option in /etc/dhcp/dhcpd.conf configures the IPs to be used as sources of DNS servers?
+[SUBJECT]
+[OPTIONS]
+options domain-name-servers ip1, ip2
+option domain-name-servers ip1, ip2
+option dns ip1, ip2
+options ip1, ip2
+[OPTIONS]
+[HINT]
+option
+[HINT]
+[ANSWER]
+2
+[ANSWER]
+[CATEGORY]
+201.1:DHCP configuration:2
+[CATEGORY]

@@ -1,0 +1,19 @@
+[SUBJECT]
+The admin wants to declared a fixed address to the host in dhcpd.conf. Based on this information complete the statement below:
+host fantasia {
+   hardware ethernet 08:00:07:26:c0:a5;
+   ___________ fantasia.example.com;
+}
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+It is a fixed address
+[HINT]
+[ANSWER]
+fixed-address
+[ANSWER]
+[CATEGORY]
+201.1:DHCP configuration:2
+[CATEGORY]

@@ -1,0 +1,17 @@
+[SUBJECT]
+Which file does the below information belong to?
+passwd:         files
+
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+/etc/
+[HINT]
+[ANSWER]
+/etc/nsswitch.conf
+[ANSWER]
+[CATEGORY]
+210.2:PAM authentication:3
+[CATEGORY]

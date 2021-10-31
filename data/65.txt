@@ -1,0 +1,18 @@
+[SUBJECT]
+It is a PAM module which provides a way to deny or allow services based on an arbitrary file.
+[SUBJECT]
+[OPTIONS]
+pam_services
+pam_list
+pam_filelist
+pam_listfile
+[OPTIONS]
+[HINT]
+a list file
+[HINT]
+[ANSWER]
+4
+[ANSWER]
+[CATEGORY]
+210.2:PAM authentication:3
+[CATEGORY]

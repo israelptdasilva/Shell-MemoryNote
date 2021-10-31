@@ -1,0 +1,15 @@
+[SUBJECT]
+What port does OpenVPN operate on?
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+??94
+[HINT]
+[ANSWER]
+1194
+[ANSWER]
+[CATEGORY]
+212.5:OpenVPN:2
+[CATEGORY]

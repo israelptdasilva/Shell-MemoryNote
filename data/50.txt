@@ -1,0 +1,20 @@
+[SUBJECT]
+What does the following command do?
+
+openvpn --genkey --secret static.key
+
+[SUBJECT]
+[OPTIONS]
+It generates a static key to be used by a trusted machine
+It generates a secret message
+It does nothing
+[OPTIONS]
+[HINT]
+1
+[HINT]
+[ANSWER]
+1
+[ANSWER]
+[CATEGORY]
+212.5:OpenVPN:2
+[CATEGORY]

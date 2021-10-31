@@ -1,0 +1,19 @@
+[SUBJECT]
+What is OpenVas?
+[SUBJECT]
+[OPTIONS]
+Open Vulnerability Assesment Tests
+Pentest tool
+client/server
+servers hosts a set of vulnerability tests
+NVT = network vulnerability tests
+[OPTIONS]
+[HINT]
+All true
+[HINT]
+[ANSWER]
+12345
+[ANSWER]
+[CATEGORY]
+212.4:Security tasks:3
+[CATEGORY]

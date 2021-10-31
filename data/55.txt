@@ -1,0 +1,18 @@
+[SUBJECT]
+When inspecting the dhcp logs the admin see DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK. What do these mean?
+[SUBJECT]
+[OPTIONS]
+Client machine send a DHCPDISCOVER to find out who is the DHCP server of the network
+DHCOFFER offers the IP to the requester
+DHCPREQUEST comes from client to confirm it wants the DHCPOFFER
+Server sends an acknoledgement with DHCPACK.
+[OPTIONS]
+[HINT]
+All true
+[HINT]
+[ANSWER]
+1234
+[ANSWER]
+[CATEGORY]
+201.1:DHCP configuration:2
+[CATEGORY]

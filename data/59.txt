@@ -1,0 +1,18 @@
+[SUBJECT]
+What does PAM mean?
+[SUBJECT]
+[OPTIONS]
+Pluggable Authentication Modules
+Private Authentication Modules
+Personal Authentication Modules
+Password Authentication Modules
+[OPTIONS]
+[HINT]
+Plug
+[HINT]
+[ANSWER]
+1
+[ANSWER]
+[CATEGORY]
+210.2:PAM authentication:3
+[CATEGORY]

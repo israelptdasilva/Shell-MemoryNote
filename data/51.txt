@@ -1,0 +1,26 @@
+[SUBJECT]
+openvpn client configuration sample:
+
+remote 192.168.1.210
+dev tun # tunnel device
+# config local and remote machine addresses
+ifconfig 10.0.0.20 10.0.0.10
+keepalive 10 60
+ping-timer-rem # Make frequent pings to check connection
+persist-tun # Tunel persistence
+persist-key # Persist key
+secret static.key
+
+[SUBJECT]
+[OPTIONS]
+
+[OPTIONS]
+[HINT]
+Memory note
+[HINT]
+[ANSWER]
+
+[ANSWER]
+[CATEGORY]
+212.5:OpenVPN:2
+[CATEGORY]
