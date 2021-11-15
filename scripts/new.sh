@@ -40,10 +40,6 @@ printf "\n"
 printf "Add a answer: \n"
 read answer
 
-# When the categories file is populated the
-# program will ask to set a category to the question.
-source scripts/categories.sh 
-
 # Create uniquely named file.
 #filename=$(md5sum <<< $RANDOM | cut -d " " -f1).txt
 filename=$(ls data | wc -l).txt
@@ -56,7 +52,6 @@ SUBJECT="[SUBJECT]"
 OPTIONS="[OPTIONS]"
 HINT="[HINT]"
 ANSWER="[ANSWER]"
-CATEGORY="[CATEGORY]"
 
 # Append user input to file. Use the tags above to
 # split content in the appropriate sections.
@@ -64,6 +59,5 @@ echo -e "$SUBJECT\n$subject\n$SUBJECT" >> $filename
 echo -e "$OPTIONS\n$options\n$OPTIONS" >> $filename
 echo -e "$HINT\n$hint\n$HINT" >> $filename
 echo -e "$ANSWER\n$answer\n$ANSWER" >> $filename
-echo -e "$CATEGORY\n$category\n$CATEGORY" >> $filename
 
 $(mv "$filename" data)

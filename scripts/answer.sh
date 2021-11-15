@@ -3,6 +3,7 @@
 # Date: 07/10/2021
 # Author: Israel Pereira Tavares da Silva
 
+# The file to extract the answer from.
 file=$1
 
 # Template string to extract content with sed.

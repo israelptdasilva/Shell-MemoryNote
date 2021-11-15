@@ -3,6 +3,7 @@
 # Date: 07/10/2021
 # Author: Israel Pereira Tavares da Silva
 
+# Directory to get the data from.
 dir="data"
 
 if [ -z "$(ls -A $dir)" ] ; then

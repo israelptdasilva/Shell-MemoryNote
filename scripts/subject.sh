@@ -3,6 +3,7 @@
 # Date: 07/10/2021
 # Author: Israel Pereira Tavares da Silva
 
+# The file to extract the subject from.
 file=$1
 
 # Change the default field separator to be based on new lines. This is
